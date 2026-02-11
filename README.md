@@ -22,7 +22,7 @@ Bash script for automating basic system maintenance tasks on Debian-based Linux 
 
 ```bash
 sudo ./system_maintenance.sh
-``` 
+```
 
 ## SSH Auth Log Analyzer
 
