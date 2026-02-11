@@ -20,7 +20,7 @@ Bash script for automating basic system maintenance tasks on Debian-based Linux 
 
 ### Usage
 
-'''bash
+```bash
 sudo ./system_maintenance.sh
 
 ## SSH Auth Log Analyzer
@@ -43,5 +43,5 @@ Python script that analyzes SSH authentication logs via journalctl.
 
 ### Usage
 
-'''bash
+```bash
 sudo python3 auth_log_analyzer.py
