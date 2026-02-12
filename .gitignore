@@ -2,3 +2,26 @@
 LOG_FILE
 *.log
 
+# Python
+--pycache--/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+logs/
+reports/
+output/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS 
+.DS_Store
+Thumbs.db

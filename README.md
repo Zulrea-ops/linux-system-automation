@@ -1,5 +1,14 @@
-# linux-system-automation
+# Linux System Automation
 Collection of Linux automation and security scripts.
+
+##How it works
+The Bash script collects basic system information and performs routine maintenance tasks, writing a timestamped log of what was executed.
+The Python script parses authentication logs and outputs a summarized report (e.g., failed logins, suspicious IPs) without modifying the system.
+
+## Disclaimer / Educational use
+This repository is for educational and defensive purposes only. 
+It performs read-only checks and/or routine maintenance, and generates logs/reports to help learning and troubleshooting.
+Do not use it to attack systems, bypass security, or access data you do not own or have explicit permission to administer.
 
 ---
 
@@ -47,3 +56,8 @@ Python script that analyzes SSH authentication logs via journalctl.
 ```bash
 sudo python3 auth_log_analyzer.py
 ```
+---
+
+## License
+
+This project is licensed under the MIT License.
