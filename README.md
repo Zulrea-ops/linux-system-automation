@@ -1,7 +1,7 @@
 # Linux System Automation
 Collection of Linux automation and security scripts.
 
-##How it works
+## How it works
 The Bash script collects basic system information and performs routine maintenance tasks, writing a timestamped log of what was executed.
 The Python script parses authentication logs and outputs a summarized report (e.g., failed logins, suspicious IPs) without modifying the system.
 
