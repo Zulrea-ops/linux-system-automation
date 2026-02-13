@@ -56,6 +56,25 @@ Python script that analyzes SSH authentication logs via journalctl.
 ```bash
 sudo python3 auth_log_analyzer.py
 ```
+## Linux Baseline Audit
+
+Bash Script that perfomrs a lightweight security baseline audit.
+
+### Features
+
+- System information collection
+- Sensitive file permissions checks
+- SSH directory permission checks
+- Sticky bit verification on /tmp
+- Optional nmap scan (disabled by default)
+- Exit codes (0 = OK, 1 = warnings, 2 = critical)
+
+### Usage
+
+```bash
+sudo ./linux_baseline_audit.sh -v
+```
+
 ---
 
 ## License
