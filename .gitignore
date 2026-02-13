@@ -11,8 +11,7 @@ LOG_FILE
 venv/
 env/
 
-# Logs
-*.log
+# Logs	
 logs/
 reports/
 output/
